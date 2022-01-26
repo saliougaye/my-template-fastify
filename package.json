@@ -1,0 +1,29 @@
+{
+  "name": "my-template-fastify",
+  "version": "1.0.0",
+  "description": "Template For Fastify Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saliougaye/my-template-fastify.git"
+  },
+  "author": "Saliou Gaye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saliougaye/my-template-fastify/issues"
+  },
+  "homepage": "https://github.com/saliougaye/my-template-fastify#readme",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "fastify": "^3.27.0",
+    "fastify-static": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
